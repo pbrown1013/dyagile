@@ -1,5 +1,11 @@
+.bosh {
+  background-color: #000000;
+}
 body a {
   color: #000000;
+}
+#slide-out-widget-area.slide-out-from-right-hover {
+  background-color: #000000 !important;
 }
 #header-outer:not([data-lhe="animated_underline"])
   header#top
@@ -2822,7 +2828,7 @@ body.material
   .off-canvas-menu-container
   li.current-menu-item
   > a {
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 body.material
   #slide-out-widget-area[class*="slide-out-from-right"]
@@ -2836,7 +2842,7 @@ body.material
 }
 body[data-slide-out-widget-area-style="slide-out-from-right"].material
   a.slide_out_area_close:before {
-  background-color: #ff1053;
+  background-color: #000000;
 }
 @media only screen and (min-width: 1000px) {
   body[data-slide-out-widget-area-style="slide-out-from-right"].material
@@ -2896,9 +2902,6 @@ body {
 }
 #call-to-action span {
   color: #4b4f52 !important;
-}
-body #slide-out-widget-area-bg {
-  background-color: rgba(0, 0, 0, 0.4);
 }
 #nectar_fullscreen_rows {
   background-color: ;
@@ -5139,4 +5142,8 @@ div.vc_col-sm-6.wpb_column.column_container.vc_column_container.col.no-extra-pad
 .icon-set-lsi_widget-2 a:hover {
   background: #000000 !important;
   color: #dd3333 !important;
+}
+
+.menu-item .menu-item-object-page a span {
+  font-family: nudista-web, sans-serif;
 }
